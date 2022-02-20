@@ -1,22 +1,24 @@
-const Navigationbar = () =>{
-    return (
+import './Navigationbar.css';
+
+const Navigationbar = () => {
+  return (
     <nav className="nav">
-        <div>
-          <a href="#s">Profile</a>
-        </div>
-        <div>
-          <a href="#s">Messages</a>
-        </div>
-        <div>
-          <a href="#s">News</a>
-        </div>
-        <div>
-          <a href="#s">Music</a>
-        </div>
-        <div>
-          <a href="#s">Settings</a>
-        </div>
-      </nav>
-    )
+      <div className="item">
+        <a>Profile</a>
+      </div>
+      <div className="item">
+        <a>Messages</a>
+      </div>
+      <div className="item">
+        <a>News</a>
+      </div>
+      <div className="item">
+        <a>Music</a>
+      </div>
+      <div className='item'>
+        <a>Settings</a>
+      </div>
+    </nav>
+  )
 }
 export default Navigationbar;

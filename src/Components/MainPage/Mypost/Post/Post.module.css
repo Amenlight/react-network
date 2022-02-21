@@ -4,3 +4,8 @@
     font-size: larger;
     font-weight: bold;
 }
+.item p{
+padding: 20px;
+text-decoration-line: underline;
+margin: auto;
+}

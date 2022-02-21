@@ -2,13 +2,13 @@ import "./App.css";
 import MainPage from "./Components/MainPage/MainPage";
 import Dialogs from "./Components/Dialogs/Dialogs";
 import Header from "./Components/Header/Header";
-import Navigationbar from "./Components/NavigationBar/Navigationbar";
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
 
 const App = () => {
   return (
     <div className="app-wrapper">
       <Header />
-      <Navigationbar />
+      <NavigationBar />
       <div className="app-wrapper-content">
         <MainPage />
       </div>

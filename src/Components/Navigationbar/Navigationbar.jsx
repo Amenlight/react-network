@@ -1,6 +1,6 @@
-import './Navigationbar.css';
+import s from "./NavigationBar.module.css";
 
-const Navigationbar = () => {
+const NavigationBar = () => {
   return (
     <nav className="nav">
       <div className="item">
@@ -15,10 +15,10 @@ const Navigationbar = () => {
       <div className="item">
         <a>Music</a>
       </div>
-      <div className='item'>
+      <div className="item">
         <a>Settings</a>
       </div>
     </nav>
-  )
-}
-export default Navigationbar;
+  );
+};
+export default NavigationBar;
